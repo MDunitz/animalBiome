@@ -1,0 +1,22 @@
+{
+  "name": "animalbiome",
+  "version": "1.0.0",
+  "description": "Learn about your furry friends and advance animal health",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDunitz/animalBiome.git"
+  },
+  "author": "Madison Dunitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDunitz/animalBiome/issues"
+  },
+  "homepage": "https://github.com/MDunitz/animalBiome#readme",
+  "dependencies": {
+    "react": "^15.3.2"
+  }
+}
