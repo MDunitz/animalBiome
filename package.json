@@ -4,7 +4,9 @@
   "description": "Learn about your furry friends and advance animal health",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node ./src/app.js",
+    "devStart": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "tests"
   },
   "repository": {
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/MDunitz/animalBiome#readme",
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "bootstrap": "^3.3.7",
     "jquery": "^2.2.4",
     "lodash": "^3.10.1",
     "material-ui": "^0.16.0",
