@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  context: path.join(__dirname, 'js'),
 
   devtool: 'source-map',
 
@@ -12,7 +11,7 @@ module.exports = {
   ],
 
   output: {
-    path: path.join(__dirname, 'www'),
+    path: path.join(__dirname, 'public'),
     publicPath: '/public/',
     filename: 'bundle.js'
   },
@@ -25,7 +24,6 @@ module.exports = {
     }
   }),
   new webpack.optimize.OccurenceOrderPlugin(),
-  new webpack.optimize.HotModuleReplacementPlugin(),
   new webpack.NoErrorsPlugin(),
   new webpack.DefinePlugin({
     'process.env':{
