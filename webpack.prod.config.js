@@ -5,12 +5,13 @@ module.exports = {
   devtool: 'source-map',
 
   entry: [
-    './src/index.js'
+    './src/index.js', 
+    'webpack-hot-middleware/client'
   ],
 
   output: {
     path: path.join(__dirname, 'public'),
-    publicPath: '/',
+    publicPath: '/public/',
     filename: 'bundle.js'
   },
 
@@ -21,6 +22,9 @@ module.exports = {
       warnings: false
     }
   }),
+  new webpack.optimize.OccurenceOrderPlugin(),
+  new webpack.optimize.HotModuleReplacementPlugin(),
+  new webpack.NoErrorsPlugin(),
   new webpack.DefinePlugin({
     'process.env':{
       'NODE_ENV':JSON.stringify('production')
@@ -29,20 +33,17 @@ module.exports = {
   ],
 
   module: {
-    loaders: [{
-      exclude: /node_modules/,
-      loader: 'babel'
-    },
-    { test: /\.js?$/,
-      loader: 'babel',
-      exclude: /node_modules/ },
-    { test: /\.scss?$/,
-      loader: 'style!css!sass',
-      include: path.join(__dirname, 'src', 'styles') },
-    { test: /\.png$/,
-      loader: 'file' },
-    { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-      loader: 'file'}
+    loaders: [
+      { test: /\.js?$/,
+        loader: 'babel',
+        include: path.join(__dirname, 'src') },
+      { test: /\.scss?$/,
+        loader: 'style!css!sass',
+        include: path.join(__dirname, 'src', 'styles') },
+      { test: /\.png$/,
+        loader: 'file' },
+      { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+        loader: 'file'}
     ]
   },
   resolve: {

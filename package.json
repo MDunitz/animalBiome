@@ -2,8 +2,8 @@
   "name": "animalbiome",
   "version": "1.0.0",
   "description": "Learn about your furry friends and advance animal health",
-  "main": "index.js",
-  "scripts": {
+  "main": "./src/entry.js",
+  "<scrip></scrip>ts": {
     "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node ./src/app.js",
     "devStart": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
