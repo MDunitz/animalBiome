@@ -10,11 +10,21 @@ if (process.env.NODE_ENV !== 'production') {
   const config = require('./webpack.dev.config.js')
   const compiler = webpack(config)
 
-  app.use(webpackHotMiddleware(compiler))
   app.use(webpackDevMiddleware(compiler, {
-    noInfo: true,
-    publicPath: config.output.publicPath
+    hot: true,
+    filename: 'bundle.js'
+    publicPath: config.output.publicPath,
+    stats: {
+      colors: true
+    },
+    historyApiFallback: true
+  }));
+  app.use(webpackHotMiddleware(compiler, {
+    log: console.log,
+    path:'/__webpack_hmr',
+    heartbeat: 10*1000
   }))
+
 }
 
 app.listen(port)

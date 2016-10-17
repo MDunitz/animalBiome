@@ -2,15 +2,17 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
+  context: path.join(__dirname, 'js'),
+
   devtool: 'source-map',
 
-  entry: [
-    './src/index.js', 
-    'webpack-hot-middleware/client'
+  entry: [ 
+    'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
+    './src/index.js'
   ],
 
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'www'),
     publicPath: '/public/',
     filename: 'bundle.js'
   },
