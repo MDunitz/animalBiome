@@ -5,8 +5,8 @@ module.exports = {
   devtool: 'eval',
 
   entry: [
-  'webpack-hot-middleware/client',
-  './src/index'
+    'webpack-hot-middleware/client',
+    './src/index'
   ],
 
   output: {
@@ -24,7 +24,8 @@ module.exports = {
     loaders: [
       { test: /\.js?$/,
         loader: 'babel',
-        exclude: path.join(__dirname, 'node_modules') },
+        include: path.join(__dirname, 'src')
+      },
       { test: /\.scss?$/,
         loader: 'style!css!sass',
         include: path.join(__dirname, 'src', 'styles') },

@@ -1,23 +1,11 @@
-import React from 'react';
-import { Component } from 'react';
+import React from 'react'
 
-import CommentBox from './comment_box';
-import CommentList from './comment_list';
-import Header from './header';
-import MainPage from './mainpage';
-
-
-export default class App extends Component {
-  render() {
+export default class App extends React.Component {
+  render () {
     return (
-      <div className="header">
-        <Header />
-        <div className="content">
-          {this.props.children}
-          <CommentBox />
-          <CommentList />
-        </div>
+      <div>
+        <h1>Change me</h1>
       </div>
-    );
+    )
   }
 }

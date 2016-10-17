@@ -1,56 +1,47 @@
 {
-  "name": "animalbiome",
+  "name": "webpack-heroku-boilerplate",
   "version": "1.0.0",
-  "description": "Learn about your furry friends and advance animal health",
+  "description": "Simplest Heroku starter kit for React apps.",
   "main": "./src/entry.js",
-  "<scrip></scrip>ts": {
-    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
-    "start": "node ./src/app.js",
-    "devStart": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "tests"
+  "homepage": "https://github.com/wallacyyy/webpack-heroku",
+  "author": "Leonardo Couto",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MDunitz/animalBiome.git"
+    "url": "git+https://github.com/wallacyyy/webpack-heroku.git"
   },
-  "author": "Madison Dunitz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MDunitz/animalBiome/issues"
-  },
-  "homepage": "https://github.com/MDunitz/animalBiome#readme",
+  "keywords": [
+    "react",
+    "express",
+    "webpack",
+    "es2015",
+    "javascript"
+  ],
   "dependencies": {
-    "babel-preset-stage-1": "^6.1.18",
-    "bootstrap": "^3.3.7",
-    "express": "^4.14.0",
-    "jquery": "^2.2.4",
-    "lodash": "^3.10.1",
-    "material-ui": "^0.16.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-redux": "^4.0.0",
-    "react-router": "^2.0.1",
-    "redux": "^3.0.4",
-    "redux-auth": "0.0.5-beta5",
-    "webpack-dev-middleware": "^1.8.4",
-    "webpack-hot-middleware": "^2.13.0"
+    "express": "^4.13.4",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
   },
   "devDependencies": {
-    "babel-core": "^6.2.1",
-    "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.1.18",
-    "babel-preset-react": "^6.1.18",
-    "chai": "^3.5.0",
-    "chai-jquery": "^2.0.0",
-    "file-loader": "^0.9.0",
-    "jquery": "^2.2.1",
-    "jsdom": "^8.1.0",
-    "mocha": "^2.4.5",
-    "react-addons-test-utils": "^0.14.7",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-middleware": "^1.8.4",
-    "webpack-dev-server": "^1.14.0",
-    "webpack-hot-middleware": "^2.13.0"
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
   }
 }
