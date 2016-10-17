@@ -21,11 +21,13 @@
     "babel-preset-stage-1": "^6.1.18",
     "jquery": "^2.2.4",
     "lodash": "^3.10.1",
+    "material-ui": "^0.16.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "redux-auth": "0.0.5-beta5"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

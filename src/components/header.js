@@ -5,30 +5,21 @@ const logo = require("../../style/assets/abLogo.png");
 
 
 class Header extends Component {
-  constructor(props){
-    super(props)
-    this.state = {} 
-  }
 
   render(){
     return (
       <div>
-        <h1>Animal Biome</h1>
         <ul className="header">
-          <li>
-            <Link to="/" activeClassName="active">
-              <img src={logo}/>
-            </Link>
-          </li>
-          <li><Link to="/" activeClassName="active">Home</Link></li>
+          <li><Link to="/" activeClassName="active">
+              <img className="headerImg" src={logo}/></Link></li>
+          <li><a href="https://catbiome.wordpress.com/" activeClassName="active">Blog</a></li>
           <li><Link to="/science" activeClassName="active">Science</Link></li>
           <li><Link to="/data" activeClassName="active">Data</Link></li>
           <li><Link to="/aboutus" activeClassName="active">About Us</Link></li>
           <li><Link to="/orderkit" activeClassName="active">Order a Kit</Link></li>
-          <li><Link to="/participants" activeClassName="active">See other Participants</Link></li>
+          <li><a href="https://www.flickr.com/groups/2845269@N23/" activeClassName="active">See other Participants</a></li>
         </ul>
         <div className="content">
-
         </div>
       </div>
     )
