@@ -6,8 +6,7 @@ module.exports = {
   devtool: 'source-map',
 
   entry: [ 
-    'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-    './src/index.js'
+    './src/index'
   ],
 
   output: {
@@ -23,8 +22,7 @@ module.exports = {
       warnings: false
     }
   }),
-  new webpack.optimize.OccurenceOrderPlugin(),
-  new webpack.NoErrorsPlugin(),
+
   new webpack.DefinePlugin({
     'process.env':{
       'NODE_ENV':JSON.stringify('production')

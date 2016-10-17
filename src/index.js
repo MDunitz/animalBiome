@@ -13,6 +13,7 @@ import AboutUs from './components/home/aboutUs';
 import reducers from './reducers';
 
 
+
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
