@@ -25,13 +25,15 @@ module.exports = {
       { test: /\.js?$/,
         loader: 'babel',
         exclude: path.join(__dirname, 'node_modules') },
-      { test: /\.css?$/,
-        loader: 'style!css',
+      { test: /\.scss?$/,
+        loader: 'style!css!sass',
         include: path.join(__dirname, 'src', 'styles') },
       { test: /\.png$/,
         loader: 'file' },
       { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file'}
+        loader: 'file'},
+      { test: /\.css$/,
+        loaders: ['style', 'css']}
     ]
   }
 }

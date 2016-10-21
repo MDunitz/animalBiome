@@ -12,6 +12,7 @@ import Data from './components/home/data';
 import AboutUs from './components/home/aboutUs';
 import reducers from './reducers';
 
+require('../styles/style.css');
 
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
