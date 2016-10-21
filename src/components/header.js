@@ -18,6 +18,7 @@ class Header extends Component {
           <li><Link to="/aboutus" activeClassName="active">About Us</Link></li>
           <li><Link to="/orderkit" activeClassName="active">Order a Kit</Link></li>
           <li><a href="https://www.flickr.com/groups/2845269@N23/" activeClassName="active">See other Participants</a></li>
+          <li><div className="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true"></div></li>
         </ul>
         <div className="content">
         </div>
