@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const logo = require("../../../style/assets/abLogo.png");
+const logo = require("../../../styles/assets/abLogo.png");
 
 
 class Top extends Component {

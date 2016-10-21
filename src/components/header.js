@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
-const logo = require("../../style/assets/abLogo.png");
+const logo = require("../../styles/assets/abLogo.png");
 
 
 class Header extends Component {

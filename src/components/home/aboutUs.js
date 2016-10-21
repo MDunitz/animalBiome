@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-const logo = require("../../../style/assets/abLogo.png");
-const Alana = require("../../../style/assets/Alana.png")
+const logo = require("../../../styles/assets/abLogo.png");
+const Alana = require("../../../styles/assets/Alana.png")
 
 
 class AboutUs extends Component {
