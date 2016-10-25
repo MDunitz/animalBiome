@@ -10,12 +10,16 @@ import mainPage from './components/mainpage';
 import Science from './components/home/science';
 import Data from './components/home/data';
 import AboutUs from './components/home/aboutUs';
+import OrderKit from './components/orderKit';
 import reducers from './reducers';
 
 require('../styles/style.css');
 
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
+
+//TODO -figure out why deployed app cant go back to /science after leaving animalbiome
+//also cant go directly to animalbiome.com/science
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
@@ -25,6 +29,7 @@ ReactDOM.render(
         <Route path="/science" component={Science} />
         <Route path="/data" component={Data} />
         <Route path="/aboutus" component={AboutUs} />
+        <Route path="/orderkit" component={OrderKit}
       </Route>
     </Router>
   </Provider>
