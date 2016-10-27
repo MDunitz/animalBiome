@@ -20,8 +20,6 @@ export default class App extends Component {
           <Header />
           <div className="content">
             {this.props.children}
-            <CommentBox />
-            <CommentList />
           </div>
         </div>
       </MuiThemeProvider>

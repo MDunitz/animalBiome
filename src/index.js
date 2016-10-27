@@ -10,7 +10,7 @@ import mainPage from './components/mainpage';
 import Science from './components/home/science';
 import Data from './components/home/data';
 import AboutUs from './components/home/aboutUs';
-import OrderKit from './components/orderKit';
+import OrderKit from './components/orderPage/orderPage';
 import reducers from './reducers';
 
 require('../styles/style.css');
