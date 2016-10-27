@@ -49,7 +49,7 @@ class OrderKit extends Component {
       <form onsubmit={this.handleSubmit.bind(this)}>
         <h3>Put a picture of the kitty kit here</h3>
         <select  value={this.state.kittyKit} className="kitty">
-          <optgroup onSelect={this.handleChangeKitty()}label="Number of kitty kits">
+          <optgroup onSelect={this.handleChangeKitty()} label="Number of kitty kits">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
