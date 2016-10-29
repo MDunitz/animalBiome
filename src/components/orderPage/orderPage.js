@@ -10,8 +10,17 @@ class OrderKit extends Component {
     //initalize local state 
     this.handleSubmit = this.handleSubmit.bind(this);
     console.log("props", this.props)
-    this.state = {cost:0};
+    this.state = {doggyKits: 0, kittyKits: 0, cost:0};
     console.log("state", this.state)
+    this.handleDogUserInput = this.handleDogUserInput.bind(this)
+  }
+
+  handleDogUserInput(doggyKits){
+    let cost = (doggyKits + this.state.kittyKits)*99;
+    this.setState({
+      doggyKits: doggyKits,
+      cost: cost
+    })
   }
   handleSubmit(event){
     alert("pooooooooooop")
@@ -29,7 +38,9 @@ class OrderKit extends Component {
     return(
       <div>
       <form >
-        <OrderDoggyKit />
+        <OrderDoggyKit
+         onUserINput={this.handleDogUserInput}
+         />
         <OrderKittyKit />
         <button action={this.handleSubmit}>Order kits</button>
       </form>
