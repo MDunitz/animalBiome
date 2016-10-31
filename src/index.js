@@ -29,7 +29,6 @@ ReactDOM.render(
         <Route path="/science" component={Science} />
         <Route path="/data" component={Data} />
         <Route path="/aboutus" component={AboutUs} />
-        <Route path="/orderkit" component={OrderKit} />
       </Route>
     </Router>
   </Provider>

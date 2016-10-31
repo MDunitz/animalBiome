@@ -16,7 +16,7 @@ class Header extends Component {
           <li><Link to="/science" activeClassName="active">Science</Link></li>
           <li><Link to="/data" activeClassName="active">Data</Link></li>
           <li><Link to="/aboutus" activeClassName="active">About Us</Link></li>
-          <li><Link to="/orderkit" activeClassName="active">Order a Kit</Link></li>
+          <li><a href="https://animal-biome.myshopify.com" activeClassName="active">Order a Kit</a></li>
           <li><a href="https://www.flickr.com/groups/2845269@N23/" activeClassName="active">See other Participants</a></li>
           <li><div className="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div></li>
         </ul>
