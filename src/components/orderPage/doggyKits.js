@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
+import doggyKitPhoto from '../../../styles/assets/doggykit.png';
 
 class OrderDoggyKit extends Component {
   constructor(props){
     super(props);
     //initalize local state 
     this.handleChange = this.handleChange.bind(this);
-    console.log("props", this.props)
-    console.log("state", this.state)
   }
 
   handleChange(){
-    console.log("state", this.state)
-    console.log("event", event)
     this.props.onUserInput(
       this.refs.textInput.value
     );
@@ -21,8 +18,8 @@ class OrderDoggyKit extends Component {
 
   render(){
     return(
-      <form >
-        <h1>Put a picture of the doggy kit here</h1>
+      <form className="col-md-6">
+        <img className='kitPhoto' src={doggyKitPhoto} />
         <input
           type="text"
           placeholder = "Number of Doggy Kits..."
