@@ -15,10 +15,10 @@ class Quotes extends Component {
           </p>
         </div>
         <div className="col-md-3">
-          <h3>WIRED.uk</h3>
+          <h3>STAT News</h3>
           <p>
-            <a href="http://www.wired.co.uk/news/archive/2015-05/15/kittybiome-cat-dna-sequencing">
-              find out why your cat is grumpy by sequencing its DNA
+            <a href="https://www.statnews.com/2016/04/22/jonathan-eisen-microbiome/">
+              on the prowl for kitty poop
             </a>
           </p>
         </div>

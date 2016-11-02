@@ -103,6 +103,13 @@ body {
   width: 30%;
 }
 
+/* aboutUs */
+.aboutUsPic{
+  width: 30%;
+}
+.aboutUsText{
+  color: #D50032;
+}
 
 /* header */
 .headerImg {
