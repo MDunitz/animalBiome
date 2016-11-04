@@ -212,24 +212,20 @@ h2.works{
   overflow: auto;
 }
 
+.logo{
+  width: 30%;
+}
+
 .logoDiv{
   display: block;
   float: left;
-  width: 15%;
+  background-color: #A2AAAD; 
 }
 
-/*.logo{
-  width: 15%;
-  float: left;
-  display: block;
-}*/
-
 ul.header {
-  width: 80%;
   background-color: #A2AAAD;
-  padding: 0;
   overflow: auto;
-  width: 100%;
+  display: inline;
 }
 
 .header li{
@@ -241,7 +237,6 @@ ul.header li a {
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
-  /*display: inline;*/
 }
 
 .header a:hover{
