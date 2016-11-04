@@ -33,32 +33,7 @@ module.exports = {
       { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
         loader: 'file'},
       { test: /\.css$/,
-        loaders: ['style', 'css']},
-      { test: /\.png$/, loader: 'url?limit=10000!img?progressive=true' }
-
+        loaders: ['style', 'css']}
     ]
   }
-
-  //  imageWebpackLoader: {
-  //   mozjpeg: {
-  //     quality: 65
-  //   },
-  //   pngquant:{
-  //     quality: "65-90",
-  //     speed: 4
-  //   },
-  //   svgo:{
-  //     plugins: [
-  //       {
-  //         removeViewBox: false
-  //       },
-  //       {
-  //         removeEmptyAttrs: false
-  //       }
-  //     ]
-  //   }
-  // }
 }
-
-
-

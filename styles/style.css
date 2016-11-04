@@ -195,10 +195,12 @@ h2.works{
 .data{
   display: inline-block;
   width: 100%;
+  height: 100%;
   background-color: #A2AAAD;
 }
 
 .dataText{
+  margin-left: 10px;
   color: #D50032;
 }
 
@@ -207,8 +209,6 @@ h2.works{
   width: 100%;
   display: inline;
   background-color: #A2AAAD;
-  position: fixed;
-  z-index: 1;
   overflow: auto;
 }
 
@@ -233,7 +233,7 @@ ul.header {
 }
 
 .header li{
-  display: inline-flex;
+  display: inline-block;
 }
 
 ul.header li a {

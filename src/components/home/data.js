@@ -5,7 +5,7 @@ class Data extends Component {
   render(){
     return(
       <div className="data">
-        <h3 className="dataText">DATA</h3>
+        <h2 className="dataText">DATA</h2>
         <img className="graph" src={Graph}/><br/><br/>
         <button className="button"><a href='http://codap.concord.org/releases/latest/static/dg/en/cert/index.html#shared=15599'>Play with the Data</a></button>
       </div>

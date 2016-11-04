@@ -14,10 +14,8 @@ class MainPage extends Component {
     return (
       <div>
         <Top />
-        <br/>
         <AnimalKits />
         <Science />
-        <Data />
         <Quotes />
         <AboutUs />
       </div>
