@@ -213,7 +213,7 @@ h2.works{
 }
 
 .logoDiv{
-  display: flex;
+  display: block;
   float: left;
   width: 15%;
 }
