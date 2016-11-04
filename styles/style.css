@@ -203,32 +203,54 @@ h2.works{
 }
 
 /* header */
-
-ul.header li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
+.headerDiv{
+  width: 100%;
+  display: inline;
+  background-color: #A2AAAD;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
 }
+
+.logoDiv{
+  display: flex;
+  float: left;
+  width: 15%;
+}
+
+/*.logo{
+  width: 15%;
+  float: left;
+  display: block;
+}*/
+
 ul.header {
+  width: 80%;
   background-color: #A2AAAD;
   padding: 0;
   overflow: auto;
   width: 100%;
 }
+
+.header li{
+  display: inline-flex;
+}
+
 ul.header li a {
   color: #111;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
-  display: inline-block;
+  /*display: inline;*/
 }
 
 .header a:hover{
   color: #1B365D;
+  text-decoration: underline;
 }
 
-.logo{
-  width: 150%;
-}
+
+
+
 
 

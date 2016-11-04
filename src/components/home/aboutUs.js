@@ -11,7 +11,7 @@ class AboutUs extends Component {
 
   render(){
     return (
-      <div className="container">
+      <div id="aboutus" className="container">
         <h1 className="aboutUsText">About Us!</h1>
         <div className="row team">
           <div className="member col-md-4">

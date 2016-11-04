@@ -6,7 +6,7 @@ import catLaptop from '../../../styles/assets/catLaptop.png';
 class Science extends Component {
   render(){
     return(
-      <div className="works">
+      <div id="howitworks" className="works">
         <h2>How it Works</h2>
         <div className="col-md-3">
           <h3>Collect a sample and send it back to us.</h3>
