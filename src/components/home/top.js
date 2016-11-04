@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-const logo = require("../../../styles/assets/abLogo.png");
+const animalPic = require("../../../styles/assets/catdog.png");
 
 
 class Top extends Component {
   render(){
     return(
-      <div className="row press">
-        <img src={logo}/>
-        <h1>Learn About Your Furry Friends! <br></br> Advance Animal Health </h1>
+      <div className="top white">
+        <img className="top catDogPic" src={animalPic}/>
       </div>
     );
   };

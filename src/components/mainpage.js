@@ -5,7 +5,7 @@ import AboutUs from './home/aboutUs';
 import Quotes from './home/quotes';
 import Science from './home/science';
 import Data from './home/data';
-import AnimalPics from './home/animalPics';
+import AnimalKits from './home/animalKits';
 import Top from './home/top';
 
 
@@ -14,7 +14,8 @@ class MainPage extends Component {
     return (
       <div>
         <Top />
-        <AnimalPics />
+        <br/>
+        <AnimalKits />
         <Science />
         <Data />
         <Quotes />
