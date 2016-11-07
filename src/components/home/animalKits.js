@@ -11,13 +11,13 @@ class AnimalKits extends Component {
         <div className="doggyKit col-md-4">
           <img className="doggyKitPhoto" src={doggyKitPhoto}/>
           <h3><b>DoggyBiome</b><br/>Microbiome assessment<br/>for dogs</h3>
-          <button className="button"><a href="https://animal-biome.myshopify.com/collections/frontpage/products/doggykit">Order Now</a></button>
+          <button className="button"><a target="_blank" href="https://animal-biome.myshopify.com/collections/frontpage/products/doggykit">Order Now</a></button>
           <button className="button"><HashLink to="#howitworks">Learn More</HashLink></button>
         </div>
         <div className="kittyKit col-md-4">
           <img className="kittyKitPhoto" src={kittyKitPhoto}/>
           <h3><b>KittyBiome</b><br/>Microbiome assessment<br/>for cats</h3>
-          <button className="button"><a href="https://animal-biome.myshopify.com/products/kittykit">Order Now</a></button>
+          <button className="button"><a target="_blank" href="https://animal-biome.myshopify.com/products/kittykit">Order Now</a></button>
           <button className="button"><HashLink to="#howitworks">Learn More</HashLink></button>
         </div>
         

@@ -12,7 +12,7 @@ class AboutUs extends Component {
   render(){
     return (
       <div id="aboutus" className="row  team container">
-        <h1 className="aboutUsText">About Us!</h1>
+        <h2 className="aboutUsText">About Us!</h2>
         <div className="row team">
           <div className="member col-md-4">
             <img className="aboutUsPic" src={Holly}/>
