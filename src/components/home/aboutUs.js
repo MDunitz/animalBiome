@@ -30,16 +30,16 @@ class AboutUs extends Component {
               Cognitive Neuroscience from Brown University <a href="https://twitter.com/ajfirl">@ajfirl</a></p>
           </div>
           <div className="member col-md-3">
+            <img className="aboutUsPic" src={Adrien}/>
+            <h3>Adrien Burch, PhD</h3>
+            <h4>Chief Microbiome Officer</h4>
+            <p>Adrien is a microbiologist turned entrepreneur. This is her second microbiome start-up; she co-founded Gut Wiser at UC Berkeley in 2013.</p>
+          </div>
+          <div className="member col-md-3">
             <img className="aboutUsPic" src={Alex}/>
             <h3>Alexandra Martin</h3>
             <h4>Chief Lab Technician</h4>
             <p>Alex is an undergraduate at UC Berkeley who has been involved with KittyBiome from the beginning</p>
-          </div>
-          <div className="member col-md-3">
-            <img className="aboutUsPic" src={Stan}/>
-            <h3>Stanley Marks, DVM, PhD</h3>
-            <h4>Scientific Advisor</h4>
-            <p>World-renowned expert in Small Animal Gastroenterology. Professor/PI at UC Davis School of Veterinary Medicine.</p>
           </div>
         </div> 
         <div className="team row">
@@ -56,16 +56,16 @@ class AboutUs extends Component {
             <p>Leader, Molecular Epidemiology at the BC Center for Disease Control <a href="https://twitter.com/jennifergardy">@jennifergardy</a></p>
           </div>
           <div className="member col-md-3">
+            <img className="aboutUsPic" src={Stan}/>
+            <h3>Stanley Marks, DVM, PhD</h3>
+            <h4>Scientific Advisor</h4>
+            <p>World-renowned expert in Small Animal Gastroenterology. Professor/PI at UC Davis School of Veterinary Medicine.</p>
+          </div>
+          <div className="member col-md-3">
             <img className="aboutUsPic" src={Adrian}/>
             <h3>Adrian Tordiffe, DVM, PhD</h3>
             <h4>Scientific Advisor</h4>
             <p>Senior Lecturer, Faculty of Veterinary Science, University of Pretoria, South Africa <a href="https://twitter.com/AdrianTordiffe">@AdrianTordiffe</a></p>
-          </div>
-          <div className="member col-md-3">
-            <img className="aboutUsPic" src={Adrien}/>
-            <h3>Adrien Burch, PhD</h3>
-            <h4>Chief Microbiome Office</h4>
-            <p>Adrien is a microbiologist turned entrepreneur. This is her second microbiome start-up; she co-founded Gut Wiser at UC Berkeley in 2013.</p>
           </div>
         </div>
       </div>

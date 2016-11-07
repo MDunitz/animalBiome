@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Quotes extends Component {
   render(){
     return (
-      <div className="row press">
+      <div className="row press quotes">
         <div className="col-md-3">
           <h3>CATSTER</h3>
           <p>

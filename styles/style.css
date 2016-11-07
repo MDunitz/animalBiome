@@ -49,12 +49,12 @@ div.press div p a {
 
 div.press div p a:before {
   content: "“";
-  color: magenta;
+  color: #D50032
 }
 
 div.press div p a:after {
   content: "”";
-  color: magenta;
+  color: #D50032;
 }
 
 div.press div p a:hover {
