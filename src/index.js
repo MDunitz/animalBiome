@@ -26,7 +26,6 @@ ReactDOM.render(
       <Route path="/" component={App}>
         <IndexRoute component={mainPage}/>
         <Route path="/howitworks" component={HowItWorks} />
-        <Route path="/data" component={Data} />
         <Route path="/aboutus" component={AboutUs} />
       </Route>
     </Router>
