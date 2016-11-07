@@ -9,7 +9,7 @@ class Quotes extends Component {
         <div className="col-md-3">
           <h3>CATSTER</h3>
           <p>
-            <a href="http://www.catster.com/lifestyle/your-cats-poop-might-help-save-lives-kittybiome">
+            <a target="_blank" href="http://www.catster.com/lifestyle/your-cats-poop-might-help-save-lives-kittybiome">
               this type of research is bleeding edge
             </a>
           </p>
@@ -17,7 +17,7 @@ class Quotes extends Component {
         <div className="col-md-3">
           <h3>STAT News</h3>
           <p>
-            <a href="https://www.statnews.com/2016/04/22/jonathan-eisen-microbiome/">
+            <a target="_blank" href="https://www.statnews.com/2016/04/22/jonathan-eisen-microbiome/">
               on the prowl for kitty poop
             </a>
           </p>
@@ -25,7 +25,7 @@ class Quotes extends Component {
         <div className="col-md-3">
           <h3>POPULAR SCIENCE</h3>
           <p>
-            <a href="http://www.popsci.com/decode-your-kittys-microbiome">
+            <a target="_blank" href="http://www.popsci.com/decode-your-kittys-microbiome">
               first project to look into the feline microbiome
             </a>
           </p>
@@ -33,7 +33,7 @@ class Quotes extends Component {
         <div className="col-md-3">
           <h3>SCIENCE</h3>
           <p>
-            <a href="https://www.sciencemag.org/news/sifter/kittybiome-kickstarter-fund-research-cat-microbes">
+            <a target="_blank" href="https://www.sciencemag.org/news/sifter/kittybiome-kickstarter-fund-research-cat-microbes">
             citizen-science research on the microbiome of cats
             </a>
           </p>
