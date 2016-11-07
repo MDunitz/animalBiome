@@ -20,14 +20,14 @@ class AboutUs extends Component {
             <img className="aboutUsPic" src={Holly}/>
             <h3>Holly Ganz, PhD</h3>
             <h4>Co-founder & CEO</h4>
-            <p>Holly is a microbial ecologist who founded the KittyBiome project <a href="https://twitter.com/hollyhganz">@hollyhganz</a></p>
+            <p>Holly is a microbial ecologist who founded the KittyBiome project <a target="_blank" href="https://twitter.com/hollyhganz">@hollyhganz</a></p>
           </div>
           <div className="member col-md-3">
             <img className="aboutUsPic" src={Alana}/>
             <h3>Alana Firl, PhD</h3>
             <h4>Co-founder & CSO</h4>
             <p>Alana holds a PhD in Vision Science from UC Berkeley and a BS in
-              Cognitive Neuroscience from Brown University <a href="https://twitter.com/ajfirl">@ajfirl</a></p>
+              Cognitive Neuroscience from Brown University <a target="_blank" href="https://twitter.com/ajfirl">@ajfirl</a></p>
           </div>
           <div className="member col-md-3">
             <img className="aboutUsPic" src={Adrien}/>
@@ -47,13 +47,13 @@ class AboutUs extends Component {
             <img className="aboutUsPic" src={Jonathan}/>
             <h3>Jonathan Eisen, PhD</h3>
             <h4>Scientific Advisor</h4>
-            <p>World-renowned evolutionary biologist and cat enthusiast. Professor/PI at UC Davis <a href="https://twitter.com/phylogenomics">@phylogenomics</a></p>
+            <p>World-renowned evolutionary biologist and cat enthusiast. Professor/PI at UC Davis <a target="_blank" href="https://twitter.com/phylogenomics">@phylogenomics</a></p>
           </div>
           <div className="member col-md-3">
             <img className="aboutUsPic" src={Jennifer}/>
             <h3>Jennifer Gardy, PhD</h3>
             <h4>Scientific Advisor</h4>
-            <p>Leader, Molecular Epidemiology at the BC Center for Disease Control <a href="https://twitter.com/jennifergardy">@jennifergardy</a></p>
+            <p>Leader, Molecular Epidemiology at the BC Center for Disease Control <a target="_blank" href="https://twitter.com/jennifergardy">@jennifergardy</a></p>
           </div>
           <div className="member col-md-3">
             <img className="aboutUsPic" src={Stan}/>
@@ -65,7 +65,7 @@ class AboutUs extends Component {
             <img className="aboutUsPic" src={Adrian}/>
             <h3>Adrian Tordiffe, DVM, PhD</h3>
             <h4>Scientific Advisor</h4>
-            <p>Senior Lecturer, Faculty of Veterinary Science, University of Pretoria, South Africa <a href="https://twitter.com/AdrianTordiffe">@AdrianTordiffe</a></p>
+            <p>Senior Lecturer, Faculty of Veterinary Science, University of Pretoria, South Africa <a target="_blank" href="https://twitter.com/AdrianTordiffe">@AdrianTordiffe</a></p>
           </div>
         </div>
       </div>
