@@ -7,10 +7,9 @@ import { Router, Route, browserHistory, IndexRoute, IndexLink, Link } from 'reac
 
 import App from './components/app';
 import mainPage from './components/mainpage';
-import Science from './components/home/science';
-import Data from './components/home/data';
+import HowItWorks from './components/home/howItWorks';
+// import Data from './components/home/data';
 import AboutUs from './components/home/aboutUs';
-import OrderKit from './components/orderPage/orderPage';
 import reducers from './reducers';
 
 require('../styles/style.css');
@@ -26,7 +25,7 @@ ReactDOM.render(
     <Router history = {browserHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={mainPage}/>
-        <Route path="/science" component={Science} />
+        <Route path="/howitworks" component={HowItWorks} />
         <Route path="/data" component={Data} />
         <Route path="/aboutus" component={AboutUs} />
       </Route>

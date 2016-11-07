@@ -3,8 +3,7 @@ import { Component } from 'react';
 
 import AboutUs from './home/aboutUs';
 import Quotes from './home/quotes';
-import Science from './home/science';
-import Data from './home/data';
+import HowItWorks from './home/howItWorks';
 import AnimalKits from './home/animalKits';
 import Top from './home/top';
 
@@ -15,7 +14,7 @@ class MainPage extends Component {
       <div>
         <Top />
         <AnimalKits />
-        <Science />
+        <HowItWorks />
         <Quotes />
         <AboutUs />
       </div>

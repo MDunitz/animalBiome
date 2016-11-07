@@ -6,8 +6,6 @@ import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-import CommentBox from './comment_box';
-import CommentList from './comment_list';
 import Header from './header';
 import MainPage from './mainpage';
 
