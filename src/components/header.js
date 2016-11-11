@@ -19,7 +19,7 @@ class Header extends Component {
             <li><HashLink to="#howitworks" activeClassName="active">How It Works</HashLink></li>
             <li><a target="_blank" href='http://codap.concord.org/releases/latest/static/dg/en/cert/index.html#shared=15599' activeClassName="active">KittyBiome Data</a></li>
             <li><HashLink to="#aboutus" activeClassName="active">About Us</HashLink></li>
-            <li><a target="_blank" href='https://animal-biome.myshopify.com/collections/sampling-kits' activeClassName="active">Order a Kit</a></li>
+            <li><a target="_blank" href='https://animal-biome.myshopify.com/' activeClassName="active">Order a Kit</a></li>
           </ul>
         </div>
       </div>
