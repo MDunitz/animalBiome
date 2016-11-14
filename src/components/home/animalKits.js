@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import doggyKitPhoto from '../../../styles/assets/doggyLogo.png';
 import kittyKitPhoto from '../../../styles/assets/kittyLogo.png';
 import { HashLink } from 'react-router-hash-scroll';
+import ReactPlayer from 'react-player';
+
 
 class AnimalKits extends Component {
   render(){
@@ -20,7 +22,9 @@ class AnimalKits extends Component {
           <button className="button"><a target="_blank" href="https://animal-biome.myshopify.com/products/kittykit">Order Now</a></button>
           <button className="button"><HashLink to="#howitworks">Learn More</HashLink></button>
         </div>
-        
+        <div className="video col-md-4">
+          <ReactPlayer url='https://www.youtube.com/watch?v=EaEoSlcPImU&t=9s'/>
+        </div>
       </div>
     );
   };
